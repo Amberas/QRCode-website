@@ -4,7 +4,11 @@
     const id = url.searchParams.get("id");
 
     const init = () => {
-        new QRCode(document.getElementById("qrcode"), `https://qr-code-six.vercel.app/?id=${id}`);
+        new QRCode(document.getElementById("qrcode"), {
+            text: "http://jindo.dev.naver.com/collie",
+            width: 800,
+            height: 800
+        });
     }
 
     init();
