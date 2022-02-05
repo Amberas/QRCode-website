@@ -6,8 +6,8 @@
     const init = () => {
         new QRCode(document.getElementById("qrcode"), {
             text: "http://jindo.dev.naver.com/collie",
-            width: 800,
-            height: 800
+            width: 1000,
+            height: 1000
         });
     }
 
