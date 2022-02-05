@@ -1,7 +1,7 @@
 .qrcode {
-    width: 95vw;
+    width: 100vw;
     display: block;
     float: none;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 5%;
 }
