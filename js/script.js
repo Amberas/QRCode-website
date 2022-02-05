@@ -6,8 +6,8 @@
     const init = () => {
         new QRCode(document.getElementById("qrcode"), {
             text: `https://qr-code-six.vercel.app/?id=${id}`,
-            width: 800,
-            height: 800
+            width: 600,
+            height: 600
         });
     }
 
