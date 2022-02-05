@@ -5,7 +5,7 @@
 
     const init = () => {
         new QRCode(document.getElementById("qrcode"), {
-            text: "http://jindo.dev.naver.com/collie",
+            text: `https://qr-code-six.vercel.app/?id=${id}`,
             width: 1000,
             height: 1000
         });
